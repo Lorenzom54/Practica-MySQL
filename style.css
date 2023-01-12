@@ -1,0 +1,24 @@
+header{
+   display: flex;
+}
+
+
+.navbar{
+    display: flex;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    flex-basis:100rem;
+    
+}
+
+.navizquierda{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbarderecha{
+    display: flex;
+    justify-content: flex-end
+}
+
