@@ -6,22 +6,30 @@ header{
 .navbar{
     display: flex;
     padding: 1rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
     margin-top: 1rem;
-    flex-basis:100rem;
+    flex-basis:100%;
+    justify-content: space-between;
     
 }
 
 .navizquierda{
-    display: flex;
-    justify-content: flex-start;
+
+    
 }
 
 .navbarderecha{
     display: flex;
-    justify-content: flex-end
+    justify-content: space-between;
 }
 
+.navdown{
+    display: flex;
+}
+
+
+
+/*
 .logocontainer{
     
 }
@@ -34,3 +42,4 @@ header{
     
 }
 
+*/
