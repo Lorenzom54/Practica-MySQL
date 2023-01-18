@@ -35,12 +35,17 @@ header{
 
 }
 
+.azul{
+    background-color: ;
+}
+
 
 
 
 
 
 .logos{
+    padding-top: 30px;
     text-align: center;
     padding-left: 10rem;
     padding-right: 10rem;
