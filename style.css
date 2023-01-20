@@ -1,11 +1,10 @@
 header{
-   /*display: flex;*/
-   border: 1px;
-   border: 1px solid black;
+   display: flex;
+   flex-wrap: wrap;
 }
 .imgini{
-    border: 1px solid black;
-    
+    display: flex;
+    width: 11%;
     
 }
 
@@ -16,32 +15,30 @@ body{
 
 
 .navbar{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 85%;
+    height: 50%;
     display: flex;
-    padding: 1rem;
-    margin-left: 3rem;
-    margin-top: 1rem;
     flex-basis: auto;
     justify-content: space-between;
-    border: 1px solid black;
     
 }
 
 .navizquierda{
-    border: 1px solid black;
+    display: flex;
 
     
 }
 
 .navderecha{
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     
 }
 
 .navdown{
-    display: flex;
-    border: 1px solid black;
+  
 
 }
 
@@ -53,7 +50,7 @@ body{
     display: flex;
 }
 a{
-   color: #eaeaea; 
+   
    text-decoration: none;
 }
 
@@ -63,6 +60,7 @@ a{
 .col2{
     width: 50%;
 }
+
 
 .laptopicon{
     margin-right: 10px;
