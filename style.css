@@ -36,7 +36,12 @@ header{
 }
 
 .azul{
-    background-color: ;
+    padding: 5rem;
+    margin-top: 4rem;
+    background-color: #2b5d80;
+    color: #eaeaea;
+
+
 }
 
 
@@ -61,4 +66,6 @@ header{
     gap: 30px;
     
 }
+
+
 
