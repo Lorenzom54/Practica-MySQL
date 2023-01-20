@@ -9,6 +9,11 @@ header{
     
 }
 
+body{
+    font-family: "Open Sans"
+    ,Arial,Helvetica,sans-serif;
+}
+
 
 .navbar{
     display: flex;
@@ -41,7 +46,40 @@ header{
 }
 
 .azul{
-    background-color: ;
+    paSdding: 3rem;
+    margin-top: 4rem;
+    background-color: #2b5d80;
+    color: #eaeaea;
+    display: flex;
+}
+a{
+   color: #eaeaea; 
+   text-decoration: none;
+}
+
+.col1{
+    width: 50%;
+}
+.col2{
+    width: 50%;
+}
+
+.laptopicon{
+    margin-right: 10px;
+}
+.papericon{
+    margin-right: 10px;
+}
+
+ul{
+    
+   
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding-top: 1rem;
 }
 
 
@@ -54,8 +92,6 @@ header{
     text-align: center;
     padding-left: 10rem;
     padding-right: 10rem;
-    
-    
 }
 
 .iconologo{
@@ -64,6 +100,7 @@ header{
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    
 }
+
+
 
