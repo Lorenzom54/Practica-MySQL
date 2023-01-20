@@ -45,14 +45,29 @@ body{
     margin-top: 4rem;
     background-color: #2b5d80;
     color: #eaeaea;
+    display: flex;
+}
+a{
+   color: #eaeaea; 
+   text-decoration: none;
 }
 
 .col1{
-    p
+    width: 50%;
+}
+.col2{
+    width: 50%;
+}
+
+.laptopicon{
+    margin-right: 10px;
+}
+.papericon{
+    margin-right: 10px;
 }
 
 ul{
-    margin: 0 4px 14px 24px;
+    
    
 }
 
@@ -71,8 +86,6 @@ li{
     text-align: center;
     padding-left: 10rem;
     padding-right: 10rem;
-    
-    
 }
 
 .iconologo{
@@ -81,7 +94,6 @@ li{
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    
 }
 
 
