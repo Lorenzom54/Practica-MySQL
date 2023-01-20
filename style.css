@@ -4,6 +4,11 @@ header{
    border: 1px solid black;
 }
 
+body{
+    font-family: "Open Sans"
+    ,Arial,Helvetica,sans-serif;
+}
+
 
 .navbar{
     display: flex;
@@ -36,14 +41,26 @@ header{
 }
 
 .azul{
-    padding: 5rem;
+    padding: 3rem;
     margin-top: 4rem;
     background-color: #2b5d80;
     color: #eaeaea;
-
-
 }
 
+.col1{
+    p
+}
+
+ul{
+    margin: 0 4px 14px 24px;
+   
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding-top: 1rem;
+}
 
 
 
