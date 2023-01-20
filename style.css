@@ -1,7 +1,12 @@
 header{
-   display: flex;
+   /*display: flex;*/
    border: 1px;
    border: 1px solid black;
+}
+.imgini{
+    border: 1px solid black;
+    
+    
 }
 
 
@@ -10,7 +15,7 @@ header{
     padding: 1rem;
     margin-left: 3rem;
     margin-top: 1rem;
-    flex-basis: 100%;
+    flex-basis: auto;
     justify-content: space-between;
     border: 1px solid black;
     
@@ -35,12 +40,17 @@ header{
 
 }
 
+.azul{
+    background-color: ;
+}
+
 
 
 
 
 
 .logos{
+    padding-top: 30px;
     text-align: center;
     padding-left: 10rem;
     padding-right: 10rem;
