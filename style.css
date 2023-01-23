@@ -37,15 +37,22 @@ header{
 
 .navdown{
     display: flex;
-    justify-content: center;
+    flex-basis: 100%;
     margin-left: 20px;
-    gap: 3rem;
-    text-decoration: none;
+    justify-content: space-between;
+    
   }
 
-  .navdownlogos{
+  .navdownizquierda{
+    display: flex;
+    text-decoration: none;
+    gap: 3rem;
+  }
 
-    
+  .navdownderecha{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
   }
 
 .navizquierda{
@@ -61,6 +68,11 @@ header{
     gap: 1rem;
 }
 
+.enlacesbajo{
+    background-color: #3E6E93;
+    padding: 20px 10px 20px 50px;
+}
+
 .azul{
     paSdding: 3rem;
     margin-top: 4rem;
@@ -71,6 +83,7 @@ header{
 
 a{
    text-decoration: none;
+   
 }
 
 .col1{
