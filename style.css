@@ -78,6 +78,12 @@ header{
     justify-content: center;
 }
 
+.cuadromedio{
+    margin-top: 10px;
+    background-color: #ebf2f7;
+    text-align: center;
+    padding: 10px 100px;
+}
 
 .azul{
     paSdding: 3rem;
