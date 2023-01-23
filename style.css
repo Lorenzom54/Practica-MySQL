@@ -28,28 +28,25 @@ header{
     width: 86%;
     height: 50%;
     display: flex;
-    flex-basis: 99%;
+    flex-basis: 95%;
     justify-content: space-between;
-    
-    
-    
+    border-bottom: solid #EBECEE;
 }
 
 .navdown{
     display: flex;
-    flex-basis: 100%;
+    flex-basis: 95%;
     margin-left: 20px;
     justify-content: space-between;
-    
   }
 
-  .navdownizquierda{
+.navdownizquierda{
     display: flex;
     text-decoration: none;
     gap: 3rem;
   }
 
-  .navdownderecha{
+.navdownderecha{
     display: flex;
     justify-content: space-between;
     gap: 1rem;
@@ -57,9 +54,6 @@ header{
 
 .navizquierda{
     display: flex;
-    
-
-    
 }
 
 .navderecha{
@@ -67,10 +61,21 @@ header{
     justify-content: space-between;
     gap: 1rem;
 }
+.navderecha a{
+    color: black;
+}
 
-.enlacesbajo{
+.partebajo{
+    display: flex;
     background-color: #3E6E93;
     padding: 20px 10px 20px 50px;
+    
+}
+
+.enlacesbajo{
+    display: flex;
+   margin-left: 3rem;
+   gap: 2rem;
 }
 
 .banner{
