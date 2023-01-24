@@ -73,7 +73,6 @@ header{
     display: flex;
     background-color: #3E6E93;
     padding: 20px 10px 20px 50px;
-    
 }
 
 .enlacesbajo{
@@ -145,6 +144,23 @@ li{
     padding-top: 1rem;
 }
 
+.marca1122{
+    display: flex;
+    
+}
+
+.iconmarcas{
+    margin:  35px;
+    height: 75px;
+    
+}
+.textomarcas{
+    width: 594px;
+}
+.marcas1212{
+    display: flex;
+
+}
 
 
 
