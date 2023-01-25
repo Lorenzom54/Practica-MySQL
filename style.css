@@ -83,14 +83,18 @@ header{
     color: #0074A3;
 }
 .azul{
+    display: flex;
     padding: 20px 30px;
     margin-top: 4rem;
     background-color: #2b5d80;
     color: #eaeaea;
-    display: flex
+    flex-wrap: wrap;
 }
 .azul a{
     color: white;
+}
+.azul h2{
+    color: #f7c891;
 }
 .fechas{
     color: #83929D;
@@ -117,23 +121,24 @@ li{
 }
 .marcas{
     display: flex;
-    justify-content: center;
+    padding: 40px 60px;
+    flex-wrap: wrap;
 }
 .marca1122{
-    display: flex;
-    
+    display: flex;    
 }
 .iconmarcas{
     margin:  35px;
     height: 75px;
-    
 }
 .textomarcas{
-    width: 594px;
+    width: 70%;
 }
 .marcas1212{
     display: flex;
-
+}
+.textomarcas a{
+    color: #e97b00;
 }
 .logos{
     padding-top: 30px;
@@ -157,6 +162,10 @@ li{
     justify-content: space-between;
     background-color: #e1e1e1;
     padding: 25px 40px 20px 60px;
+    color: #666;
+}
+.fondofooter a{
+    color: #666;
 }
 .fondoizquierda{
     display: flex;
@@ -172,17 +181,25 @@ li{
     display: flex;
     padding-left: 60px;
     padding-right: 60px;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8rem;
+}
+.footerenlaces a{
+    color: #717171;
 }
 .cabefooter{
     padding-bottom: 5px;
-    
+    color: #555;
+    list-style: none;
 }
 .imgmundo{
     margin-left: 5.5rem;
 }
+.lifooter{
+    list-style: none;
+}
 .enlacesbajofooter{
-    
     padding-top: 2rem;
     background-color: #f7f7f7;
 }
@@ -191,6 +208,9 @@ li{
 }
 .footerfinal{
     margin: 45px 15px 10px 60px;
+}
+.footerfinal a{
+    color: #666;
 }
 .textfooterfinal{
     padding-left: 8px;
