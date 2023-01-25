@@ -143,6 +143,10 @@ li{
     text-align: -webkit-match-parent;
     padding-top: 1rem;
 }
+.marcas{
+    display: flex;
+    justify-content: center;
+}
 
 .marca1122{
     display: flex;
