@@ -2,7 +2,6 @@ body{
     font-family: "Open Sans"
     ,Arial,Helvetica,sans-serif;
 }
-
 header{
    display: flex;
 }
@@ -11,17 +10,12 @@ header{
     flex-basis: 100%;
     flex-wrap: wrap;
     margin-left: 2rem;
- 
 }
 .imgini{
     margin left: 1rem;
     width: 9%;
     margin-left: 2rem;
 }
-
-
-
-
 .navbar{
     margin-top: 10px;
     margin-left: 20px;
@@ -32,34 +26,28 @@ header{
     justify-content: space-between;
     border-bottom: solid #EBECEE;
 }
-
 .navdown{
     display: flex;
     flex-basis: 95%;
     margin-left: 20px;
     justify-content: space-between;
   }
-
 .navdownizquierda{
     display: flex;
     text-decoration: none;
     gap: 3rem;
   }
-  .navdownizquierda a{
+.navdownizquierda a{
     color: black;
   }
-
-
 .navdownderecha{
     display: flex;
     justify-content: space-between;
     gap: 1rem;
   }
-
 .navizquierda{
     display: flex;
 }
-
 .navderecha{
     display: flex;
     justify-content: space-between;
@@ -68,13 +56,11 @@ header{
 .navderecha a{
     color: #0074A3;
 }
-
 .partebajo{
     display: flex;
     background-color: #3E6E93;
     padding: 20px 10px 20px 50px;
 }
-
 .enlacesbajo{
     display: flex;
    margin-left: 3rem;
@@ -83,23 +69,19 @@ header{
 .enlacesbajo a{
     color: white;
 }
-
 .banner{
     display: flex;
     justify-content: center;
 }
-
 .cuadromedio{
     margin-top: 10px;
     background-color: #ebf2f7;
     text-align: center;
     padding: 10px 100px;
 }
-
 .cuadromedio a{
     color: #0074A3;
 }
-
 .azul{
     padding: 20px 30px;
     margin-top: 4rem;
@@ -113,31 +95,21 @@ header{
 .fechas{
     color: #83929D;
 }
-
 a{
    text-decoration: none;
 }
-
 .col1{
     width: 50%;
 }
 .col2{
     width: 50%;
 }
-
-
 .laptopicon{
     margin-right: 10px;
 }
 .papericon{
     margin-right: 10px;
 }
-
-ul{
-    
-   
-}
-
 li{
     display: list-item;
     text-align: -webkit-match-parent;
@@ -147,12 +119,10 @@ li{
     display: flex;
     justify-content: center;
 }
-
 .marca1122{
     display: flex;
     
 }
-
 .iconmarcas{
     margin:  35px;
     height: 75px;
@@ -165,18 +135,16 @@ li{
     display: flex;
 
 }
-
-
-
-
-
 .logos{
     padding-top: 30px;
     text-align: center;
     padding-left: 10rem;
     padding-right: 10rem;
 }
-
+.imgtel{
+    padding-top: 5px;
+    padding-right: 20px;
+}
 .iconologo{
     padding-top: 5rem;
     display: flex;
@@ -184,6 +152,46 @@ li{
     flex-wrap: wrap;
     gap: 30px;
 }
-
-
-
+.fondofooter{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e1e1e1;
+    padding: 25px 40px 20px 60px;
+}
+.fondoizquierda{
+    display: flex;
+    
+}
+.fondoderecha{
+    display: flex;
+    gap: 1rem;
+    padding-top: 6px;
+}
+.footerenlaces{
+    background-color: #f7f7f7;
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-between;
+}
+.cabefooter{
+    padding-bottom: 5px;
+    
+}
+.imgmundo{
+    margin-left: 5.5rem;
+}
+.enlacesbajofooter{
+    
+    padding-top: 2rem;
+    background-color: #f7f7f7;
+}
+.enlacesbajofooter a{
+    color: #666;
+}
+.footerfinal{
+    margin: 45px 15px 10px 60px;
+}
+.textfooterfinal{
+    padding-left: 8px;
+}
