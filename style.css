@@ -75,6 +75,7 @@ header{
 .banner{
     display: flex;
     justify-content: center;
+    
 }
 .cuadromedio{
     margin-top: 10px;
@@ -189,12 +190,16 @@ li{
     gap: 8rem;
 }
 .footerenlaces a{
-    color: #717171;
+    
 }
 .cabefooter{
     padding-bottom: 5px;
-    color: #555;
+    
     list-style: none;
+}
+.cabefooter a{
+    color: #555;
+    font-weight: 600;
 }
 .imgmundo{
     margin-left: 5.5rem;
@@ -202,18 +207,15 @@ li{
 .lifooter{
     list-style: none;
 }
+.lifooter a{
+    color: #717171;
+}
 .enlacesbajofooter{
     padding-top: 2rem;
     background-color: #f7f7f7;
 }
-.enlacesbajofooter a{
-    color: #666;
-}
 .footerfinal{
     margin: 45px 15px 10px 60px;
-}
-.footerfinal a{
-    color: #666;
 }
 .textfooterfinal{
     padding-left: 8px;
