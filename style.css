@@ -74,9 +74,12 @@ header{
 }
 .banner{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
+@media (max-width: 1600px) {
+    .banner {
+      display: none;
+    }
 .cuadromedio{
     margin-top: 10px;
     background-color: #ebf2f7;
