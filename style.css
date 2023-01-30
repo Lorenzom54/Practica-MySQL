@@ -16,14 +16,6 @@ header{
    
     margin-left: 2rem;
 }
-/*
-@media (max-width: 900px) {
-    .imgini {
-      width: 100px;
-      height: 60px;
-        }
-}
-*/
 .navbar{
     margin-top: 10px;
     margin-left: 20px;
@@ -45,6 +37,9 @@ header{
     text-decoration: none;
     gap: 3rem;
   }
+  /*
+  El mediaquery hace desaparecer el texto al hacerlo pequeño.
+  */
   @media (max-width: 1000px) {
     .navdownizquierda {
       display: none;
@@ -62,6 +57,9 @@ header{
 .navizquierda{
     display: flex;
 }
+/*
+EL mediaquery hace desaparecer una parte del Nav. 
+*/
 @media (max-width: 900px) {
     .navizquierda {
       display: none;
@@ -96,6 +94,9 @@ header{
     display: flex;
     justify-content: center;   
 }
+/*
+La imagen desaparecera
+*/
 @media (max-width: 1472px) {
     .banner {
       display: none;
@@ -117,6 +118,9 @@ header{
     background-color: #2b5d80;
     color: #eaeaea;
 }
+/*
+Cunado se reduce el tamaño aparecera abajo la fila derecha
+*/
 @media (max-width: 800px) {
     .azul {
       display: block;
@@ -159,6 +163,9 @@ li{
 .marca1122{
     display: flex;   
 }
+/*
+Hace que se pongan en filas de 1 
+*/
 @media (max-width: 1200px) {
     .marca1122 {
       flex-wrap: wrap;
