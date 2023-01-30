@@ -38,6 +38,8 @@ header{
     gap: 3rem;
   }
 .navdownizquierda a{
+    display: flex;
+    flex-wrap: wrap;
     color: black;
   }
 .navdownderecha{
@@ -63,8 +65,9 @@ header{
 }
 .enlacesbajo{
     display: flex;
-   margin-left: 3rem;
-   gap: 2rem;
+    margin-left: 3rem;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 .enlacesbajo a{
     color: white;
@@ -214,8 +217,15 @@ li{
     padding-top: 2rem;
     background-color: #f7f7f7;
 }
+.enlacesbajofooter a{
+    color: #717171;
+}
+
 .footerfinal{
     margin: 45px 15px 10px 60px;
+}
+.footerfinal a{
+    color: #717171;
 }
 .textfooterfinal{
     padding-left: 8px;
