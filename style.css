@@ -13,8 +13,14 @@ header{
 }
 .imgini{
     margin left: 1rem;
-    width: 9%;
+   
     margin-left: 2rem;
+}
+@media (max-width: 1268px) {
+    .imgini {
+      width: 100px;
+      height: 60px;
+        }
 }
 .navbar{
     margin-top: 10px;
@@ -36,10 +42,9 @@ header{
     display: flex;
     text-decoration: none;
     gap: 3rem;
+    flex-wrap: wrap;
   }
 .navdownizquierda a{
-    display: flex;
-    flex-wrap: wrap;
     color: black;
   }
 .navdownderecha{
@@ -47,8 +52,18 @@ header{
     justify-content: space-between;
     gap: 1rem;
   }
+  @media (max-width: 900px) {
+    .navdownderecha {
+      display: none;
+    }
+}
 .navizquierda{
     display: flex;
+}
+@media (max-width: 900px) {
+    .navizquierda {
+      display: none;
+    }
 }
 .navderecha{
     display: flex;
@@ -65,9 +80,9 @@ header{
 }
 .enlacesbajo{
     display: flex;
-    margin-left: 3rem;
-    gap: 2rem;
-    flex-wrap: wrap;
+   margin-left: 3rem;
+   gap: 2rem;
+   flex-wrap: wrap;
 }
 .enlacesbajo a{
     color: white;
@@ -77,8 +92,12 @@ header{
 }
 .banner{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
+}
+@media (max-width: 1472px) {
+    .banner {
+      display: none;
+    }
 }
 .cuadromedio{
     margin-top: 10px;
@@ -95,7 +114,12 @@ header{
     margin-top: 4rem;
     background-color: #2b5d80;
     color: #eaeaea;
-    flex-wrap: wrap;
+    
+}
+@media (max-width: 800px) {
+    .azul {
+      display: block;
+    }
 }
 .azul a{
     color: white;
@@ -132,7 +156,12 @@ li{
     flex-wrap: wrap;
 }
 .marca1122{
-    display: flex;    
+    display: flex;   
+}
+@media (max-width: 1200px) {
+    .marca1122 {
+      flex-wrap: wrap;
+    }
 }
 .iconmarcas{
     margin:  35px;
@@ -217,15 +246,8 @@ li{
     padding-top: 2rem;
     background-color: #f7f7f7;
 }
-.enlacesbajofooter a{
-    color: #717171;
-}
-
 .footerfinal{
     margin: 45px 15px 10px 60px;
-}
-.footerfinal a{
-    color: #717171;
 }
 .textfooterfinal{
     padding-left: 8px;
